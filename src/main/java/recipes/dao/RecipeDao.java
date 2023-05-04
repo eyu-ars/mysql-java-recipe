@@ -17,7 +17,9 @@ import recipes.exception.DbException;
  * @author Admin
  *
  */
+@SuppressWarnings("unused")
 public class RecipeDao extends DaoBase {
+  
   private static final String CATEGORY_TABLE = "category";
   private static final String INGREDIENT_TABLE = "ingredient";
   private static final String RECIPE_TABLE = "recipe";
